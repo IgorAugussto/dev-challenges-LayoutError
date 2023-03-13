@@ -1,0 +1,138 @@
+@font-face {
+  font-family: SpaceMono;
+  src: url('./assets/fonts/SpaceMono-Bold.ttf');
+}
+
+@font-face {
+  font-family: SpaceMono;
+  src: url('./assets/fonts/SpaceMono-Regular.ttf');
+}
+
+@font-face {
+  font-family: Inconsolata;
+  src: url('./assets/fonts/Inconsolata-Bold.ttf');
+}
+
+@font-face {
+  font-family: Montserrat;
+  src: url('./assets/fonts/Montserrat-VariableFont_wght.ttf');
+}
+
+@media (max-width:822px) {
+	main .container {
+    display: grid;
+    display: block;
+		max-width: 100%;
+		padding: 0 150px;
+	}
+
+  main .image {
+    margin: 10%;
+  }
+
+  main .text1-h {
+    font-size: 50px;
+    margin: 10%;
+  }
+
+  main .text2-p {
+    font-size: 35px;
+    margin: 10%;
+  }
+
+  main .btn {
+    margin-top: 10%;
+    margin-bottom: 10%;
+    margin-left: 22%;
+  }
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.container {
+  display: grid;
+}
+
+.container .image {
+  width: 85%;
+  margin-left: 10%;
+  margin-top: 10%;
+  margin-bottom: 2%;
+  grid-column: 1;
+  grid-row: 1 / span 4;
+}
+
+.container .text2-p {
+  grid-column: 2;
+}
+
+.not-found {
+  font-family: 'Inconsolata';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 25px;
+  letter-spacing: -0.08em;
+  margin-top: 3%;
+  margin-left: 3%;
+}
+
+.text1-h {
+  font-family: 'SpaceMono' !important;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 64px;
+  line-height: 95px;
+  letter-spacing: -0.035em;
+  color: #333333;
+}
+
+.text2-p {
+  font-family: 'Space Mono';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 36px;
+  letter-spacing: -0.035em;
+  color: #4F4F4F;
+}
+
+.btn {
+  font-family: 'Space Mono';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 21px;
+  letter-spacing: -0.035em;
+  text-transform: uppercase;
+  color: white;
+  border-color: #333333;
+  background-color: #333333;;
+  width: 216px;
+  height: 68px;
+  left: 740px;
+  top: 663px;
+}
+
+.btn:hover {
+  cursor: pointer;
+}
+
+footer .footer {
+  display: flex;
+  justify-content: center;
+  font-family: 'Montserrat' !important;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 12px;
+  color: #BDBDBD;
+  margin-top: 6%;
+}
+
+.name-bold {
+  font-weight: bold;
+}
